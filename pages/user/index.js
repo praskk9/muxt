@@ -21,7 +21,6 @@ export const getServerSideProps = async ({ params }) => {
     // const userData = await getUserDataById()
     return {
       props: {
-        slug: params.slug,
       }
     }
   }
